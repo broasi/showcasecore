@@ -1,0 +1,60 @@
+/Users/JessMini/Documents/ShowCaseCore/Showcase.mvc/bin/Debug/netcoreapp2.0/Showcase.mvc.deps.json
+/Users/JessMini/Documents/ShowCaseCore/Showcase.mvc/bin/Debug/netcoreapp2.0/Showcase.mvc.runtimeconfig.json
+/Users/JessMini/Documents/ShowCaseCore/Showcase.mvc/bin/Debug/netcoreapp2.0/Showcase.mvc.runtimeconfig.dev.json
+/Users/JessMini/Documents/ShowCaseCore/Showcase.mvc/bin/Debug/netcoreapp2.0/Showcase.mvc.dll
+/Users/JessMini/Documents/ShowCaseCore/Showcase.mvc/bin/Debug/netcoreapp2.0/Showcase.mvc.pdb
+/Users/JessMini/Documents/ShowCaseCore/Showcase.mvc/obj/Debug/netcoreapp2.0/Showcase.mvc.csproj.CoreCompileInputs.cache
+/Users/JessMini/Documents/ShowCaseCore/Showcase.mvc/obj/Debug/netcoreapp2.0/Showcase.mvc.AssemblyInfoInputs.cache
+/Users/JessMini/Documents/ShowCaseCore/Showcase.mvc/obj/Debug/netcoreapp2.0/Showcase.mvc.AssemblyInfo.cs
+/Users/JessMini/Documents/ShowCaseCore/Showcase.mvc/obj/Debug/netcoreapp2.0/Showcase.mvc.dll
+/Users/JessMini/Documents/ShowCaseCore/Showcase.mvc/obj/Debug/netcoreapp2.0/Showcase.mvc.pdb
+/Users/JessMini/Dropbox/Public/Clients/ShowCaseCore/Showcase.mvc/bin/Debug/netcoreapp2.0/Showcase.mvc.deps.json
+/Users/JessMini/Dropbox/Public/Clients/ShowCaseCore/Showcase.mvc/bin/Debug/netcoreapp2.0/Showcase.mvc.runtimeconfig.json
+/Users/JessMini/Dropbox/Public/Clients/ShowCaseCore/Showcase.mvc/bin/Debug/netcoreapp2.0/Showcase.mvc.runtimeconfig.dev.json
+/Users/JessMini/Dropbox/Public/Clients/ShowCaseCore/Showcase.mvc/bin/Debug/netcoreapp2.0/Showcase.mvc.dll
+/Users/JessMini/Dropbox/Public/Clients/ShowCaseCore/Showcase.mvc/bin/Debug/netcoreapp2.0/Showcase.mvc.pdb
+/Users/JessMini/Dropbox/Public/Clients/ShowCaseCore/Showcase.mvc/obj/Debug/netcoreapp2.0/Showcase.mvc.csproj.CoreCompileInputs.cache
+/Users/JessMini/Dropbox/Public/Clients/ShowCaseCore/Showcase.mvc/obj/Debug/netcoreapp2.0/Showcase.mvc.AssemblyInfoInputs.cache
+/Users/JessMini/Dropbox/Public/Clients/ShowCaseCore/Showcase.mvc/obj/Debug/netcoreapp2.0/Showcase.mvc.AssemblyInfo.cs
+/Users/JessMini/Dropbox/Public/Clients/ShowCaseCore/Showcase.mvc/obj/Debug/netcoreapp2.0/Showcase.mvc.dll
+/Users/JessMini/Dropbox/Public/Clients/ShowCaseCore/Showcase.mvc/obj/Debug/netcoreapp2.0/Showcase.mvc.pdb
+C:\Users\Jess\Dropbox\Public\Clients\ShowCaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.deps.json
+C:\Users\Jess\Dropbox\Public\Clients\ShowCaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.runtimeconfig.json
+C:\Users\Jess\Dropbox\Public\Clients\ShowCaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.runtimeconfig.dev.json
+C:\Users\Jess\Dropbox\Public\Clients\ShowCaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.dll
+C:\Users\Jess\Dropbox\Public\Clients\ShowCaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.pdb
+C:\Users\Jess\Dropbox\Public\Clients\ShowCaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.csproj.CoreCompileInputs.cache
+C:\Users\Jess\Dropbox\Public\Clients\ShowCaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.AssemblyInfoInputs.cache
+C:\Users\Jess\Dropbox\Public\Clients\ShowCaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.AssemblyInfo.cs
+C:\Users\Jess\Dropbox\Public\Clients\ShowCaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.dll
+C:\Users\Jess\Dropbox\Public\Clients\ShowCaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.pdb
+C:\Users\Jess\Documents\Backup\ShowCaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.deps.json
+C:\Users\Jess\Documents\Backup\ShowCaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.runtimeconfig.json
+C:\Users\Jess\Documents\Backup\ShowCaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.runtimeconfig.dev.json
+C:\Users\Jess\Documents\Backup\ShowCaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.dll
+C:\Users\Jess\Documents\Backup\ShowCaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.pdb
+C:\Users\Jess\Documents\Backup\ShowCaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.csproj.CoreCompileInputs.cache
+C:\Users\Jess\Documents\Backup\ShowCaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.AssemblyInfoInputs.cache
+C:\Users\Jess\Documents\Backup\ShowCaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.AssemblyInfo.cs
+C:\Users\Jess\Documents\Backup\ShowCaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.dll
+C:\Users\Jess\Documents\Backup\ShowCaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.pdb
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.deps.json
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.runtimeconfig.json
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.runtimeconfig.dev.json
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.dll
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.pdb
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.csproj.CoreCompileInputs.cache
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.AssemblyInfoInputs.cache
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.AssemblyInfo.cs
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.dll
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.pdb
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.deps.json
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.runtimeconfig.json
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.runtimeconfig.dev.json
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.dll
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\bin\Debug\netcoreapp2.0\Showcase.mvc.pdb
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.csproj.CoreCompileInputs.cache
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.AssemblyInfoInputs.cache
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.AssemblyInfo.cs
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.dll
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\obj\Debug\netcoreapp2.0\Showcase.mvc.pdb

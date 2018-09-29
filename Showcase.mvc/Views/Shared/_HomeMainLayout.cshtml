@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>The Showcase Magazine</title>
+    <meta name="description" content="The Showcase Magazine" />
+    <meta name="keywords" content="The Showcase Magazine, Showcase, Magazine, Showcase Magazine, Business Guide, Warren, Watchung, Westfield, Scotch Plains, Warren Magazine, Watchung Magazine, Westfield Magazine, Scotch Plains Magazine, NJ Magazine" />
+    <link href="~/content/bootstrap.css" rel='stylesheet' type='text/css' />    
+    <script src="~/scripts/jquery.min-1.11.0.js"></script>      
+    <link href="~/content/style2.css" rel="stylesheet" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <script type="text/javascript" src="~/scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="~/scripts/move-top.js"></script>
+    <script type="text/javascript" src="~/scripts/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 900);
+            });
+        });
+    </script>
+    <script>          
+          // for Ad mouse over ad
+          $(function () {
+              var moveLeft = 0;
+              var moveDown = 0;
+              $('a.popper').hover(function (e) {
+
+                  var target = '#' + ($(this).attr('data-popbox'));
+
+                  $(target).show();
+                  moveLeft = $(this).outerWidth();
+                  moveDown = ($(target).outerHeight() / 2);
+              }, function () {
+                  var target = '#' + ($(this).attr('data-popbox'));
+                  $(target).hide();
+              });
+
+              $('a.popper').mousemove(function (e) {
+                  var target = '#' + ($(this).attr('data-popbox'));
+
+                  leftD = e.pageX + parseInt(moveLeft);
+                  maxRight = leftD + $(target).outerWidth();
+                  windowLeft = $(window).width() - 40;
+                  windowRight = 0;
+                  maxLeft = e.pageX - (parseInt(moveLeft) + $(target).outerWidth() + 20);
+
+                  if (maxRight > windowLeft && maxLeft > windowRight) {
+                      leftD = maxLeft;
+                  }
+
+                  topD = e.pageY - parseInt(moveDown);
+                  maxBottom = parseInt(e.pageY + parseInt(moveDown) + 20);
+                  windowBottom = parseInt(parseInt($(document).scrollTop()) + parseInt($(window).height()));
+                  maxTop = topD;
+                  windowTop = parseInt($(document).scrollTop());
+                  if (maxBottom > windowBottom) {
+                      topD = windowBottom - $(target).outerHeight() - 20;
+                  } else if (maxTop < windowTop) {
+                      topD = windowTop + 20;
+                  }
+
+                  $(target).css('top', topD).css('left', leftD);
+
+
+              });
+
+          });
+    </script>
+
+</head>
+<body>
+    <style>
+        .popbox {
+            display: none;
+            position: absolute;
+            z-index: 99999;
+            width: 400px;           
+            height: 550px;
+            padding: 0px;
+            background: #EEEFEB;
+            color: #000000;
+            border: 0px solid #4D4F53;
+            margin: 0px;
+            -webkit-box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+            box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+        }
+    </style>
+    <!-- Ad here -->
+    <div id="pop1" class="popbox">
+        <img src="~/images/ad/pop_Ad_big.jpg" border="0" />
+    </div>    
+    <!-- header-section-starts-here -->
+    <div class="header">       
+        <div class="header-bottom">
+            <div class="logo text-center">
+                <a href="index.html"><img src="~/images/logo.png" alt="Showcase Logo" /></a>
+            </div>
+            <div class="navigation" style="border-bottom: 1px solid #006f3c;">
+                @Html.Partial("_NavMain")
+            </div>           
+        </div>
+    </div>    <br /><br />
+    <!-- content-section-ends-here -->
+    <div class="main-body">
+        <div class="wrap">
+            <div class="social-icons">
+                <ul>
+                    <li  style="padding-bottom:5px"><a href="https://twitter.com/@('@')theshowcasemag" target="_blank"><img src="~/images/twitter.gif" alt="Twitter logo" /></a></li>
+                    <li><a href="https://instagram.com/theshowcasemag" target="_blank"><img src="~/images/instagram.gif" alt="Instagram logo" /></a></li>
+                    <li><a href="http://www.facebook.com/TheShowcaseMagazine" target="_blank"><img src="~/images/fb.gif" alt="Facebook logo" /></a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="wrap" style="border:16px solid #006f34; padding:15px">
+                @RenderBody()
+                <div class="col-md-4 side-bar">
+                    @Html.Partial("_Right_Ads")
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>    
+    <!-- footer-section-starts-here -->
+    <div class="footer">
+       @Html.Partial("_FooterPartialMain")
+    </div>
+    <!-- footer-section-ends-here -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            var defaults = {
+            wrapID: 'toTop', // fading element id
+            wrapHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear'
+            };
+            */
+            $().UItoTop({ easingType: 'easeOutQuart' });
+        });
+    </script>
+    <a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    <!---->
+</body>
+</html>

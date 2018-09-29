@@ -1,0 +1,20 @@
+﻿<footer>
+    <table width="1010" cellpadding="0" cellspacing="0" border="0" align="center">
+        <tr>
+            <td align="right" height="30" id="footer">
+                <div class="issue">
+                    @if (ViewBag.Title == "Warren")
+                    {
+                        <font color="white">@Html.Partial("_MonthIssue")</font>
+                    }
+                    else
+                    {
+                        <font color="white">@Html.Partial("_MonthIssue")</font>
+                    }
+                    <img src="~/images/space.gif" width="25" height="1">
+                </div>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+</footer>

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>    
+<head>
+<meta charset="utf-8" />
+<style type="text/css">  
+#pad {height:200px;} 
+</style> 
+<script src="~/Scripts/jquery.min.1.8.0.js"></script>
+<link href="~/Content/default.css" rel="stylesheet" type="text/css" media="all" />
+ <script type="text/javascript">
+          $(document).ready(function () {
+              // Remove the class of child and grandchild
+              // This removes the CSS 'falback'
+              $("#nav ul.child").removeClass("child");
+              $("#nav ul.grandchild").removeClass("grandchild");
+
+              $('#nav li').has('ul').hover(function () {
+                  $(this).addClass("blunne-topnav-linkhover").children("ul").stop(true).fadeTo(350, 1);
+              }, function () {
+                  $(this).removeClass("blunne-topnav-linkhover").children("ul").stop(true).fadeOut(350, 0);
+              });
+          });
+ </script>
+</head>
+<link href="~/Content/themes/darkgreen/topbar.css" rel="stylesheet" type="text/css" media="all" />
+<body  marginwidth="0" marginheight="0" topmargin="0" leftmargin="0">
+<div id="wrapper" style="background-color:white">
+   <div id="bannerTop">
+        <table width="1087" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr><td width="1280" height="256"><img src="~/Images/logo.jpg" /></td></tr>
+        </table>             
+  </div>
+  <br />
+  <div id="bodyContent" style="margin-left:auto; margin-right:auto; background-color:#58292b; width:1000px; padding-left:0px; overflow:hidden; border:5px solid #006f3e">
+    @Html.Partial("_NavPartialEdition")
+    @RenderBody()
+  </div>
+  <div id="footer">
+    @Html.Partial("_FooterPartialInside")    
+  </div>
+</div>
+</body>
+</html>

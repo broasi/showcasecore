@@ -1,0 +1,358 @@
+﻿@{
+    Layout = @ViewBag.Layout;
+    ViewBag.Title = "Warren";
+}
+<title>The Showcase Magazine - Articles</title>
+ <link href="~/scripts/demonstration.css" rel="stylesheet" type="text/css" />
+ <script type="text/javascript" src="~/scripts/jquery.min.js"></script>
+ <script type="text/javascript" src="~/scripts/s3slider.js"></script>
+ <script type="text/javascript" src="~/scripts/jquery.cycle.all.2.74.js"></script>
+ <script type="text/javascript">
+     $(document).ready(function () {
+         $('#slider3').s3Slider({
+             timeOut: 3000
+         });
+         //checkIEVersion();        
+     });
+
+     $(document).ready(function () {
+         $('.slideshow').cycle({
+             fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+         });
+                  
+     });
+
+     function getInternetExplorerVersion() {
+         var rv = -1;
+         if (navigator.appName == 'Microsoft Internet Explorer') {
+             var ua = navigator.userAgent;
+             var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+             if (re.exec(ua) != null)
+                 rv = parseFloat(RegExp.$1);
+         }
+         return rv;
+     }
+
+     function checkIEVersion() {
+         var msg = "You're not using Windows Internet Explorer.";
+         document.getElementById("sliderTable").style.paddingLeft = "140px";
+         var ver = getInternetExplorerVersion();
+         if (ver > -1) {
+             if (ver <= 8.0)
+                 document.getElementById("sliderTable").style.paddingLeft = "183px";
+         }
+     }
+    </script>
+<table  width="1000" cellpadding="0" cellspacing="0" border="0" align="center">
+<tr><td bgcolor="#FFFFFF"><img src="~/images/space.gif" width="780" height="1"></td></tr>
+<tr><td style="background-color:#b4b5b9"  align="left"><img src="~/images/articles1.jpg" width="339" height="11"></td></tr>
+<tr><td id="header2" align="left"><div id="articles"></div></td></tr>
+<tr><td bgcolor="#FFFFFF"><img src="~/images/articles/projgrad.jpg"></td></tr>
+<tr><td bgcolor="#FFFFFF" valign="top" align="left">
+  <blockquote>
+    <br><br />               
+        <div id="slider3" style="width:100%; top:0px; margin-left:auto;margin-right:auto; clear:left; border: 0px solid black; align-content:center">
+            <center>                
+                <ul id="slider3Content" style="list-style:none; z-index:10;  border: 0px solid red;  height:400px">
+                    <li class="slider3Image">
+                        <img src="~/images/projgraduation/1.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/images/projgraduation/2.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/images/projgraduation/3.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/images/projgraduation/4.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/images/projgraduation/5.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/images/projgraduation/6.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/images/projgraduation/7.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/images/projgraduation/8.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    @*<li class="slider3Image">
+                        <img src="~/flash/58.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/56.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/57.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/54.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/53.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/52.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/51.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/50.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/46.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/47.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/48.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/45.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/44.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/43.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/42.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/41.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/40.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/39.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/38.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/37.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/36.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad35.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad34.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad33.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad32.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad31.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad30.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad29.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad27.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad28.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad26.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad25.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad24.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad23.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad20.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad21.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad22.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad15.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad15.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad16.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad17.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad18.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad19.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad1.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad2.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad3.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad4.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad5.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad6.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad7.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad8.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad9.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad10.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad11.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad12.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad13.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad14.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>
+                    <li class="slider3Image">
+                        <img src="~/flash/grad14.jpg" />
+                        <span style="background-color:white"></span>
+                    </li>*@
+                </ul>
+            </center>
+        </div>
+        <br /><br />
+      Watchung Hills Regional High School will be
+      celebrating its 26th year of an all-night, alcohol and
+      drug-free celebration for the seniors on June 22,
+      2017 at MetLife Stadium. This year, the Project
+      Graduation Committee has planned and unforgettable
+      night of fun! The Project Graduation event is
+      open to all members of the graduating class and
+      held the evening of graduation. The Project Graduation
+      Committee, composed of parent volunteers,
+      arranges for transportation, chaperones, food and
+      fun-filled activities. In order for every student to
+      participate, the Committee is reaching out to the
+      community for support through a direct fundraising
+      appeals. We need your assistance to continue
+      this worthwhile program.
+      <br /><br />
+      Please consider making a Cash or Goods and
+      Service donation today. Checks should be made
+      payable to WHRHS Project Graduation and sent
+      to the school ATTN: Project Graduation, 108 Stirling
+      Road, Warren, NJ 07059 or you can email us
+      at <a href="mailto:WHRHS2017PG@OUTLOOK.COM" target="_blank">WHRHS2017PG@OUTLOOK.COM</a>
+      <br /><br />
+      On behalf of the volunteer committee and the
+      students who will benefit from your generosity,
+      THANK YOU FOR YOUR SUPPORT!
+      <br /><br />
+      <b>Project Graduation 2017 Committee</b>
+       <br /><br />
+          
+</blockquote>
+<br><br><br>
+</td></tr>
+</table>

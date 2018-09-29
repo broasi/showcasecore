@@ -1,0 +1,13 @@
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\bin\release\netcoreapp2.0\win7-x64\hostpolicy.dll
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\bin\release\netcoreapp2.0\win7-x64\hostfxr.dll
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\bin\release\netcoreapp2.0\win7-x64\Showcase.mvc.exe
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\bin\release\netcoreapp2.0\win7-x64\Showcase.mvc.deps.json
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\bin\release\netcoreapp2.0\win7-x64\Showcase.mvc.runtimeconfig.json
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\bin\release\netcoreapp2.0\win7-x64\Showcase.mvc.runtimeconfig.dev.json
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\bin\release\netcoreapp2.0\win7-x64\Showcase.mvc.dll
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\bin\release\netcoreapp2.0\win7-x64\Showcase.mvc.pdb
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\obj\release\netcoreapp2.0\win7-x64\Showcase.mvc.csproj.CoreCompileInputs.cache
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\obj\release\netcoreapp2.0\win7-x64\Showcase.mvc.AssemblyInfoInputs.cache
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\obj\release\netcoreapp2.0\win7-x64\Showcase.mvc.AssemblyInfo.cs
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\obj\release\netcoreapp2.0\win7-x64\Showcase.mvc.dll
+C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\obj\release\netcoreapp2.0\win7-x64\Showcase.mvc.pdb

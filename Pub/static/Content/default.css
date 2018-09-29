@@ -1,0 +1,173 @@
+body {
+    background: url(../images/bg.jpg);
+    margin:0px;        
+}
+td {
+font-family: Georgia, sans-serif;
+font-size: 10pt;
+line-height: 17px;
+}
+
+.writer {
+font-family: Georgia, sans-serif;
+font-size: 12pt;
+line-height: 20px;
+}
+
+.issue {
+font-family: Georgia, sans-serif;
+font-size: 7pt;
+color: white;
+line-height: 20px;
+}
+
+a:link, a:visited {
+	
+	font-size: 10pt;
+	color:#14287e;
+	text-decoration:none;
+}
+
+a:hover, a:active {
+	color:#000413;
+	text-decoration:underline;
+}
+
+.box {
+	font-family: Georgia;
+	font-size: 10pt;
+	color:#000413;
+}   
+
+.boxheader {
+	font-family: Georgia;
+	font-size: 14pt;
+	color:#14287e;
+}   
+
+.header {
+	font-family: Georgia;
+	font-size: 18pt;
+	color:#000000;
+}   
+
+/* new nav - up to 3rd level */
+
+ul.top-level > li a:visited, ul.top-level > li a:link  {text-decoration:none; color:white; font-weight:bold;  }   /*first level*/
+.top-level li > ul > li a:visited, .top-level li > ul > li a:link {  font-weight:normal;  color:black; }  /*2nd level*/
+.top-level li > ul > li > ul a:visited, .top-level li > ul > li > ul a:link {  font-weight:normal; color:black;    }   /*3rd level*/
+
+.top-level li > ul > li:hover {
+    background: url(../images/newhome/templatemo_menu_hover.png);
+}
+
+.top-level li > ul li > ul  li:hover a:link {     
+     /*text-decoration:underline;*/
+}
+
+#templatemo_menu {      
+    font-family: Arial;
+    float: left;    
+    letter-spacing: 1px;
+    width:990px;
+    height: 40px;
+    padding-left: 0px;
+    padding: 0px;   
+    color: #000;
+    z-index: 20;
+    position: relative;
+    top:53%;
+    background-color:#572427;
+    margin-left:5px;
+    margin-top:0px;     
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+#templatemo_menu ul {
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    background-color: lightgray;
+     
+}
+#templatemo_menu li {list-style: none;}
+
+ul.top-level {background:#572427; }
+ul.top-level li {  float:left; }
+#templatemo_menu a {
+    float: left;
+    display: block;
+    width: 140px;
+    height: 30px;
+    padding: 8px 0 0 0;
+    margin: 0 1px 0 0;   
+    text-align: center;    
+    letter-spacing: 1px;
+    outline: none;    
+}
+
+#templatemo_menu li:hover  {
+    position: relative;
+    background: url(../images/newhome/templatemo_menu_hover.png);     
+ }
+
+.current { color: #fff; background: url(../images/NewHome/templatemo_menu_hover.png) bottom repeat-x }
+
+/*sub-level menus*/
+/* Targeting the second level menu */
+#nav li ul {           
+    position: absolute;
+    display: none;
+    float: left;
+    width: 270px;   /* Adjusting 2nd level width */
+    top: 100%;
+    text-align: left;        
+    border: solid 0px black;    
+}
+
+#nav li ul li {
+    width: 220px;
+    padding-left: 5px;
+                
+}
+
+#nav li ul li a {
+    background: none;
+    border: none;
+    line-height: 30px;
+    margin: 0;
+    padding: 0 0 0 0px;
+    text-align: left;
+    width: 400px;
+                   
+}
+        
+/* Third level menu */
+#nav li ul li ul {
+    right: -400px;   /*  -400px; Adjusting third level overlap to 2nd level */
+    top: -65px;
+    width: 500px;   /* 500px; Adjusting third level width */
+    padding-left:20px;    
+}
+
+
+/* A class of current will be added via jQuery */
+#nav li.current > a {
+        
+}
+/* CSS fallback */
+#nav li:hover > ul.child {
+	display: block;
+}
+#nav li:hover > ul.grandchild  { 
+	display: block; 
+}
+
+/*end nav*/
+
+.wrapper {
+    margin-left:auto; margin-right:auto; overflow:auto;
+}
+.bannerTop {
+    margin-left:auto; margin-right:auto; overflow:auto;
+}

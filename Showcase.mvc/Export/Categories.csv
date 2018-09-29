@@ -1,0 +1,122 @@
+Id,Category_Id,Description
+1,1,Accountant
+2,2,Attorneys At Law
+3,3,Auction/Antiques
+4,4,Auto Repair/Service
+5,5,Automotive
+6,6,Chiropractor
+7,7,Coin Collecting
+8,8,Custom Builders
+9,9,Dance & Performing Arts
+10,10,Dental - General/Family
+11,11,Dental - Oral Surgery
+12,12,Drainage/Excavating
+13,13,Education
+14,14,Electrician
+15,15,Equestrian
+16,16,Fence Company
+17,17,Fencing
+18,18,Financial Advisor
+19,19,Flooring
+20,20,Graphic Design
+21,21,Health and Beauty
+22,22,Health and Fitness
+23,23,Home Improvement
+24,24,Insurance
+25,25,Interior Design
+26,26,Jewelers
+27,27,Landscaping
+28,28,Learning Institutions
+29,29,Masonry Company
+30,30,Mobile Detailing
+31,31,Mortgages
+32,32,Nutrition/Vitamins
+33,33,Optometry/Retail
+34,34,Painters
+35,35,Pet Grooming/Boarding
+36,36,Pet Sitting Services
+37,37,Physicians
+38,38,Plastic Surgeons
+39,39,"Plumbing, Heating & Air"
+40,40,Printing
+41,41,Produce Market
+42,42,Real Estate
+43,43,Restaurants/Catering
+44,44,Salon/Spa
+45,45,Signage
+46,46,Snow Plowing
+47,47,Tae Kwon Do School
+48,48,Tree Service
+49,49,Website Traffic
+50,50,Window Treatments
+51,109,Bakery/Deli
+52,110,Greenhouses
+53,111,Cleaners
+54,112,Pharmacy
+55,113,Sports Memorabilia
+56,114,Tutoring
+57,115,Urgent Care
+58,116,Psychologist
+59,117,Pet Supply
+60,118,Cellular Phones
+61,119,Wireless Retailer
+62,120,Dry Cleaning
+63,121,Tanning Salon
+64,122,Summer Camps
+65,123,Estate Sales
+66,124,Car Detailing
+67,125,Air Duct/Dryer Vent
+68,126,Barber
+69,127,Photographer
+70,128,Gifts
+71,129,Retail
+72,130,Frozen Yogurt
+73,132,Travel Agent
+74,133,Fashion
+75,134,Security & Investigative Services
+76,135,Automobile Sales
+77,136,Automobile Detailing
+78,137,Fruit Arrangements
+79,139,Firewood
+80,140,Disposal Services
+81,141,Bagels
+82,142,Banks
+83,143,Prepared Meals
+84,144,Florist
+85,145,Tile & Marble
+86,146,Nurseries
+87,147,Limo/Taxi
+88,148,Catering
+89,149,Assisted Living
+90,150,Sporting Events
+91,151,Locksmith
+92,152,Architecture
+93,153,Appliances
+94,154,Roofing
+95,155,Physical Therapy
+96,156,Event Planning
+97,157,Orthodontics
+98,158,Psychosocial Care
+99,159,Office Space
+100,168,Piano Moving
+101,169,Entertainment
+102,170,Musicians
+103,171,Laundromat
+104,172,Music Lessons
+105,173,Skin Laser
+106,174,Paving
+107,175,Nail Salon
+108,176,Massage
+109,177,Window Replacement
+110,178,Excavating
+111,179,Psychic Readings
+112,180,Support Groups
+113,181,Restaurant/Lounge
+114,182,Women's Boutique/Gifts
+115,183,Garden Center
+116,184,Calligraphy
+117,185,Weddings
+118,186,Consignment
+119,187,Cafe
+120,188,Health and Wellness
+121,189,Life Coach

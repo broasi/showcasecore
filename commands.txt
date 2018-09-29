@@ -1,0 +1,33 @@
+dotnet new -o showcase.api -n showcase.api
+
+dotnet publish -o ..\pubdir
+
+ng new showcase.spa
+
+ng build
+
+
+ng serve
+
+ng update @angular/core  --force  (update angular to v 6 use --force switch if there are errors in dependencies)
+
+
+dotnet watch run
+
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+
+
+ng build --base-href /myUrl/
+
+
+npm install bootstrap@3.3.7 font-awesome --save
+
+
+SELF_CONTAINED DEPLOYMENT
+dotnet clean
+dotnet restore
+dotnet build -c release
+dotnet publish -c release -r win7-x64 -o bin/dist/win-x64
+dotnet publish -c release -r ubuntu.16.10-x64 -o bin/dist/ubuntu.16.10-x64
+dotnet publish -c release -r osx.10.12-x64 -o bin/dist/osx.10.12-x64

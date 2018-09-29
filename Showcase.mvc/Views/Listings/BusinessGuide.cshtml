@@ -1,0 +1,92 @@
+﻿@using Showcase.mvc.Data
+@using Showcase.mvc.Data
+@inject IShowcaseRepository repo
+@model IEnumerable<Showcase.mvc.Dtos.ClientForCategoryDto>
+@{
+     Layout = @ViewBag.Layout;
+    ViewBag.Title = "Warren";
+}
+
+<!-- <script>
+    $(document).ready(function(){  
+        var lastScroll = 0;     
+        for (var i = 0; i < @Convert.ToInt32(ViewData["ctr"]) + 1; i++ )
+            {
+                $("#" + i).fadeIn( "slow" );
+            }
+        });    
+</script> -->
+<title>The Showcase Magazine - Business Guide</title>
+<table width="1000" cellpadding="0" cellspacing="0" border="0" align="center">
+<tr><td bgcolor="#FFFFFF"><img src="~/images/space.gif" width="780" height="1"></td></tr>
+<tr><td style="background-color:#b4b5b9"  align="left"><img src="~/images/listings1.jpg" width="339" height="11"></td></tr>
+<tr><td id="header2" align="left"><div id="listing"></div></td></tr>
+<tr><td><table width="1000" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+<tr><td bgcolor="#FFFFFF" colspan="2" valign="top"><img src="~/images/listings3.jpg" width="339" height="25" ></td>
+    <td width="8%"></td>
+    <td style="background-color: #f2f2f2;" rowspan="2" valign="top">
+        <br><br>
+        <img src="~/images/listings/categs.gif"><br><br>
+        <img src="~/images/listings/arrow.gif"> <a href="~/listings/businessguide/"> Show all categories</a><br>
+        @foreach (var item in await repo.ListCategories())
+        {
+            <img src="~/images/listings/arrow.gif"> <a href="~/listings/businessguide/@item.Category_Id">@item.Description</a><br>
+        }
+        <br><br>
+    </td>
+<td  rowspan="2"><img src="~/images/space.gif" width="20" height="1"></td>
+</tr>
+<tr><td width="100"><img src="~/images/space.gif" width="100" height="1"></td>
+<td width="524" valign="top">Welcome to the Business Guide! Click on a category on the right to view a specific category.
+<br><br>
+
+@{ var thisCategory = ""; var ctr = 0;}
+@{ 
+    var clientList = await repo.ListClients();
+    if (ViewBag.Category_Id != null) {
+       clientList = await repo.ListClientsOnCategory(ViewBag.Category_Id);
+    }
+ }
+@foreach (var item in clientList)
+{ 
+  ctr++;
+  <div> 
+  @if (thisCategory.Trim() != item.Description.Trim())
+   {
+       <div class="header">
+            <br />@item.Description
+       </div>
+   }
+   <br />
+     <div id="@ctr">
+       <table width="394" cellpadding="0" cellspacing="0" border="0">
+          <tr><td><img src="~/images/listings/boxup500.gif"></td></tr>
+            <tr><td style="background-color:#e5e7f3">
+            <blockquote>
+            @if (item.Addr2 == "Yes")
+            { <br />@Html.Raw(@item.Freetxt) }
+            else   {                          
+                <div class="boxheader"><br />
+                    @item.Name
+                </div>
+                <div class="box">            
+                    @item.Addr1<br />
+                    @item.City, @item.State @item.Zip<br>
+                    @item.Tel<br>
+                    <a href="http://@item.Url" target="_blank">@item.Url</a> 
+                    <a href="mailto:@item.Email">@item.Email</a> 
+                </div>
+              }  <br />
+             <i>@Html.Raw(@item.Blurb)</i><br>          
+            </blockquote>                
+            </td></tr>
+          <tr><td><img src="~/images/listings/boxdown500.gif"></td></tr>
+       </table>    
+      </div>
+   </div>      
+    thisCategory = item.Description.Trim();
+}
+  <br /><br /> <br><br><br>     
+ </td></tr>
+</table>
+</table>
