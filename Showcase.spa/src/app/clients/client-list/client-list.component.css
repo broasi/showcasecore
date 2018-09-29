@@ -1,0 +1,9 @@
+input[type='checkbox'] {
+  padding-right: 10px;
+  background-color: red;
+}
+
+.gridStyle {
+    width: 100%;
+    background-color: aquamarine;    
+}

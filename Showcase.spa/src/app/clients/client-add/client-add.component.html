@@ -1,0 +1,80 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+        <form [formGroup]="registerForm" (ngSubmit)="register()"> 
+            <!-- <h2 class="text-center text-primary">Add Client</h2>
+            <hr> -->
+            <br><br>
+            <div class="form-group" [ngClass]="{'has-error': registerForm.get('Name').errors && registerForm.get('Name').touched}">
+              <input type="text" class="form-control" autocomplete="off" placeholder="Name" formControlName="Name">
+              <span class="help-block" *ngIf="registerForm.get('Name').hasError('required') && registerForm.get('Name').touched">
+                Client Name is required
+              </span>
+            </div>
+          
+            <div class="form-group" [ngClass]="{'has-error': registerForm.get('Addr1').errors && registerForm.get('Addr1').touched}">
+              <input type="text" class="form-control" placeholder="Addr1" formControlName="Addr1">    
+            </div>                        
+            
+            <div class="form-group" [ngClass]="{'has-error': registerForm.get('City').errors && registerForm.get('City').touched}">
+              <input type="text" class="form-control" placeholder="City" formControlName="City">    
+            </div>
+          
+            <div class="form-group" [ngClass]="{'has-error': registerForm.get('State').errors && registerForm.get('State').touched}">
+              <input type="text" class="form-control" placeholder="State" formControlName="State">    
+            </div>
+          
+            <div class="form-group" [ngClass]="{'has-error': registerForm.get('Zip').errors && registerForm.get('Zip').touched}">
+              <input type="text" class="form-control" placeholder="Zip" formControlName="Zip">    
+              <span class="help-block" *ngIf="registerForm.get('Zip').hasError('maxlength') && registerForm.get('Zip').touched">
+                Zip cannot exceed 5 characters
+              </span>
+            </div>
+          
+            <div class="form-group" [ngClass]="{'has-error': registerForm.get('Tel').errors && registerForm.get('Tel').touched}">
+              <input type="text" class="form-control" placeholder="Tel" formControlName="Tel">    
+            </div>
+          
+            <div class="form-group" [ngClass]="{'has-error': registerForm.get('Email').errors && registerForm.get('Email').touched}">
+              <input type="text" class="form-control" placeholder="Email" formControlName="Email">    
+            </div>
+            
+            <div class="form-group" [ngClass]="{'has-error': registerForm.get('Url').errors && registerForm.get('Url').touched}">
+              <input type="text" class="form-control" placeholder="Url" formControlName="Url">    
+            </div>
+          
+            <div class="form-group">
+                <label for="" class="control-label" style="margin-right:10px">Use Freetxt:</label>
+                <label class="radio-inline">
+                  <input type="radio" value="Yes" formControlName="Addr2">Yes
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" value="No" formControlName="Addr2">No
+                </label>
+            </div>
+              
+            <div class="form-group" [ngClass]="{'has-error': registerForm.get('Freetxt').errors && registerForm.get('Freetxt').touched}">
+              <textarea rows="10" cols="60" class="form-control" placeholder="Freetxt" formControlName="Freetxt"></textarea>
+            </div>
+          
+            <div class="form-group" [ngClass]="{'has-error': registerForm.get('Blurb').errors && registerForm.get('Blurb').touched}">
+                <textarea  rows="10" cols="60" class="form-control" placeholder="Blurb" formControlName="Blurb"></textarea>
+            </div>
+          
+            <div class="form-group" [ngClass]="{'has-error': registerForm.get('Category_Id').errors && registerForm.get('Category_Id').touched}">
+                <label for="Category_Id" class="control-label" style="margin-right:10px">Categories:</label>
+                <select class="form-control" multiple style="height:400px" placeholder="Category_Id" formControlName="Category_Id">
+                    <option *ngFor="let category of categories" [value]='category.category_Id'>{{category.description}}</option>
+                </select>                
+            </div>
+
+            <div class="form-group text-center">
+                <button class="btn btn-success" [disabled]="!registerForm.valid" type="submit">Save</button>
+                <button class="btn btn-default" type="button" (click)="cancel()">Cancel</button>
+            </div>
+          
+          </form>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,21 @@
+
+<div *ngIf="loggedIn()" class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="tab-panel">
+                <tabset class="member-tabset">                    
+                    <tab heading="Update Client">
+                        <app-client-edit>Loading...</app-client-edit>                
+                    </tab>
+                    <tab heading="Add Client ">                
+                         <app-client-add>Loading...</app-client-add>
+                    </tab>
+                    <tab heading="Add Categories">
+                         <app-category-add>Loading...</app-category-add>
+                    </tab>                
+                </tabset>
+            </div>      
+        </div>
+    </div>
+</div>
+

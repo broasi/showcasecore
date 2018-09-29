@@ -1,0 +1,25 @@
+
+<div class="container" >
+  <div class="row">
+    <div class="col-sm-6">
+        <div class="form-group">
+          <label for="clients">Clients:</label><br>
+          <input id="clients" autocomplete="off" type="text" class="form-control" [(ngModel)]=query (keyup)=filter() (keyup.enter)=searchClient()>
+        </div>        
+    </div>    
+  </div>
+
+  <div class="row">
+      <div class="col-sm-12">
+        <div class="form-group">
+                <div class="suggestions" *ngIf="filteredList.length > 0">
+                    <ul *ngFor="let item of filteredList">
+                        <li>                        
+                            <a style="padding:10px" (click)="select(item);searchClient()">{{item}}</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+      </div>
+  </div>
+</div>  	

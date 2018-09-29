@@ -1,0 +1,79 @@
+<form name="registerForm"  #registerForm="ngForm" (ngSubmit)="update()"> 
+<app-autocomplete #cancelAuto  (autoClientName)="receiveMessage($event)">Loading...</app-autocomplete>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+            <!-- <h2 class="text-center text-primary">Update Client</h2>
+            <hr> -->
+            <div style="display: none;">
+              <input type="text" disabled class="form-control" [(ngModel)]="model.client_Id"  name="client_Id" placeholder="Client Id">              
+            </div>
+            <br><br>
+            <div class="form-group">
+              <input type="text" class="form-control" [(ngModel)]="model.name" required name="Name" placeholder="Name">              
+            </div>
+          
+            <div class="form-group">
+              <input type="text" class="form-control" [(ngModel)]="model.addr1" name="Addr1" placeholder="Addr1">              
+            </div>                        
+            
+            <div class="form-group">
+              <input type="text" class="form-control" [(ngModel)]="model.city" name="City" placeholder="City">              
+            </div>
+          
+            <div class="form-group">              
+              <input type="text" class="form-control" [(ngModel)]="model.state" name="State" placeholder="State">              
+            </div>
+          
+            <div class="form-group">
+              <input type="text" class="form-control" [(ngModel)]="model.zip" name="Zip" placeholder="Zip">              
+            </div>
+          
+            <div class="form-group">
+              <input type="text" class="form-control" [(ngModel)]="model.tel" name="Tel" placeholder="Tel">              
+            </div>
+          
+            <div class="form-group">
+              <input type="text" class="form-control" [(ngModel)]="model.email" name="Email" placeholder="Email">              
+            </div>
+            
+            <div class="form-group">
+              <input type="text" class="form-control" [(ngModel)]="model.url" name="Url" placeholder="Url">              
+            </div>
+          
+            <div class="form-group">
+                <label for="" class="control-label" style="margin-right:10px">Use Freetxt:</label>
+                <label class="radio-inline">
+                  <input type="radio" value="Yes" [(ngModel)]="model.addr2" name="Addr2">Yes
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" value="No" [(ngModel)]="model.addr2" name="Addr2">No
+                </label>
+            </div>
+              
+            <div class="form-group">
+              <textarea rows="10" cols="60" class="form-control" [(ngModel)]="model.freetxt" placeholder="Freetxt" name="Freetxt"></textarea>
+            </div>
+          
+            <div class="form-group">
+                <textarea  rows="10" cols="60" class="form-control" [(ngModel)]="model.blurb" placeholder="Blurb" name="Blurb"></textarea>
+            </div>
+
+            <div class="form-group">                 
+                <b>Saved categories:</b><div style="color:red" *ngFor="let selected of ClientCategories">{{selected}}</div>
+                <label for="Category_Id" class="control-label"  style="margin-right:10px; display: none">Categories: {{ model.clientCategories | json }}  </label>
+                <select class="form-control" multiple name="clientCategories" style="height:400px" placeholder="ClientCategories" name="ClientCategories" [(ngModel)]="model.clientCategories">
+                    <option *ngFor="let category of categoriesTrim" [ngValue]="category.category_Id">{{category.description}} - ({{category.category_Id}})</option>
+                </select>                
+            </div>
+
+            <div class="form-group text-center">
+                <button class="btn btn-success" [disabled]="!registerForm.valid" type="submit">Save</button>
+                <button class="btn btn-success" [disabled]="!registerForm.valid" type="button" (click)="delete()">Delete</button>
+                <button class="btn btn-default" type="button"  (click)="cancel()">Cancel</button>
+            </div>
+    </div>
+  </div>
+ </div>
+</form>

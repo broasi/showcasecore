@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+          <form [formGroup]="registerForm" (ngSubmit)="register()"> 
+              <br><br>
+              <div class="form-group" [ngClass]="{'has-error': registerForm.get('Description').errors && registerForm.get('Description').touched}">
+                <input type="text" class="form-control" placeholder="Category" formControlName="Description">
+                <span class="help-block" *ngIf="registerForm.get('Description').hasError('required') && registerForm.get('Description').touched">
+                  Category is required
+                </span>
+              </div>          
+  
+              <div class="form-group text-center">
+                  <button class="btn btn-success" [disabled]="!registerForm.valid" type="submit">Save</button>
+                  <button class="btn btn-default" type="button" (click)="cancel()">Cancel</button>
+              </div>
+            
+            </form>
+      </div>
+    </div>
+  </div>
+  
+  

@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <input type="text" class="form-control" [(ngModel)]="filteredName">
+        <br><br>
+        <ul class="list-group">
+            <li class="list-group-item" *ngFor="let client of clients | filter:filteredName:'name'">
+              <strong>{{client.name}}</strong>
+            </li>
+        </ul>
+    </div>
+</div>
+
