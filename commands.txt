@@ -34,3 +34,6 @@ dotnet publish -c release -r osx.10.12-x64 -o bin/dist/osx.10.12-x64
 
 dotnet publish -c release -o ..\pub
 
+Git
+
+git rm --cached Pub/web.config
