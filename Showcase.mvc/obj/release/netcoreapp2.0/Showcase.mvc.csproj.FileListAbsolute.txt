@@ -8,3 +8,13 @@ C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\obj\release\netcoreapp2.0\Show
 C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\obj\release\netcoreapp2.0\Showcase.mvc.AssemblyInfo.cs
 C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\obj\release\netcoreapp2.0\Showcase.mvc.dll
 C:\Users\Jess\Documents\ShowcaseCore\showcase.mvc\obj\release\netcoreapp2.0\Showcase.mvc.pdb
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\bin\release\netcoreapp2.0\Showcase.mvc.deps.json
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\bin\release\netcoreapp2.0\Showcase.mvc.runtimeconfig.json
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\bin\release\netcoreapp2.0\Showcase.mvc.runtimeconfig.dev.json
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\bin\release\netcoreapp2.0\Showcase.mvc.dll
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\bin\release\netcoreapp2.0\Showcase.mvc.pdb
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\obj\release\netcoreapp2.0\Showcase.mvc.csproj.CoreCompileInputs.cache
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\obj\release\netcoreapp2.0\Showcase.mvc.AssemblyInfoInputs.cache
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\obj\release\netcoreapp2.0\Showcase.mvc.AssemblyInfo.cs
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\obj\release\netcoreapp2.0\Showcase.mvc.dll
+C:\Users\Jess\Documents\All That Matters\ShowcaseCore\showcase.mvc\obj\release\netcoreapp2.0\Showcase.mvc.pdb
