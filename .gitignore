@@ -6,7 +6,7 @@
 /out-tsc
 /Pub
 # dependencies
-/node_modules
+/Showcase.spa/node_modules
 
 # IDEs and editors
 /.idea
@@ -40,3 +40,5 @@ Thumbs.db
 
 # Database
 *.db
+
+commands.txt
