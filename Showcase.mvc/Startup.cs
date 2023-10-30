@@ -20,7 +20,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
 
-namespace Showcase.mvc
+namespace Showcase.mvcs
 {
     public class Startup
     {
